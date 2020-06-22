@@ -615,7 +615,7 @@ description = "pytest: simple powerful testing with Python"
 name = "pytest"
 optional = false
 python-versions = ">=3.5"
-version = "5.3.1"
+version = "5.4.3"
 
 [package.dependencies]
 atomicwrites = ">=1.0"
@@ -632,6 +632,7 @@ python = "<3.8"
 version = ">=0.12"
 
 [package.extras]
+checkqa-mypy = ["mypy (v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
@@ -1213,7 +1214,7 @@ create_stubs = ["pyminifier", "rshell"]
 docs = ["sphinx", "sphinx-click", "sphinx-autodoc-typehints", "recommonmark", "sphinx_rtd_theme"]
 
 [metadata]
-content-hash = "d1451d0f07c58078ed8c5a3c8fa7eede300491716fa841ee679b9d1fd8ddf1b4"
+content-hash = "b25755b2af41702a2489ff953061e5e7fdb1518cd09766d58c4c542d1545b80e"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -1537,8 +1538,8 @@ pyserial = [
     {file = "pyserial-3.4.tar.gz", hash = "sha256:6e2d401fdee0eab996cf734e67773a0143b932772ca8b42451440cfed942c627"},
 ]
 pytest = [
-    {file = "pytest-5.3.1-py3-none-any.whl", hash = "sha256:63344a2e3bce2e4d522fd62b4fdebb647c019f1f9e4ca075debbd13219db4418"},
-    {file = "pytest-5.3.1.tar.gz", hash = "sha256:f67403f33b2b1d25a6756184077394167fe5e2f9d8bdaab30707d19ccec35427"},
+    {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},
+    {file = "pytest-5.4.3.tar.gz", hash = "sha256:7979331bfcba207414f5e1263b5a0f8f521d0f457318836a7355531ed1a4c7d8"},
 ]
 pytest-cov = [
     {file = "pytest-cov-2.9.0.tar.gz", hash = "sha256:b6a814b8ed6247bd81ff47f038511b57fe1ce7f4cc25b9106f1a4b106f1d9322"},
